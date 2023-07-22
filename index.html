@@ -1,12 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .font-bebas {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .font-roboto {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header class="bg-[#FFFBF0] h-screen">
+        <nav class="
+            flex
+            flex-col
+            justify-center
+            items-center
+            lg:justify-between
+            lg:flex-row
+            lg:items-center
+            lg:pr-32
+            lg:pl-32
+            lg:pt-10
+            lg:gap-0
+
+        
+        
+        
+        ">
+            <div>
+                <img class="w-1/2 mx-auto pt-5 md:w-60   " src="icons/logo.png" alt="">
+            </div>
+            <div class="text-center pt-4 md:pt-0">
+                <a class="mr-5 md:mr-6 lg:mr-5" href="">Home</a><a class="mr-5 md:mr-6 lg:mr-5" href="">Product</a><a class="mr-5 md:mr-6 lg:mr-5" href="">About
+                    Us</a><a class="mr-5 md:mr-6 lg:mr-5" href="">Contact Us</a>
+            </div>
+        </nav>
+
+        <!-- banner section  -->
+        <section class="
+
+            flex
+            flex-col
+            
+            md:gap-12
+            md:justify-center
+            md:items-center
+            
+
+            lg:flex 
+            lg:flex-row
+            lg:gap-40
+            lg:justify-center 
+            lg:items-center 
+            lg:mt-20
+            
+        
+        ">
+            <div class="
+            w-[100%]
+            pt-6
+            pl-9
+            md:w-auto
+            md:pl-0
+            md:text-center
+            lg:text-left
+            lg:w-auto"
+            >
+                <h3 class="
+                font-bebas 
+                uppercase ">
+                    <span class="
+                    text-[#FABE4C] 
+                    font-medium 
+                    text-6xl 
+                    lg:text-8xl/[120px]  ">
+                        Be the Penguins
+                    </span>
+                    <br>
+                    <span class="text-[#363958]   font-medium text-6xl lg:text-8xl" >
+                        of Winter
+                    </span>
+                </h3>
+                <p class="font-roboto 
+                text-lg
+                w-auto
+                md:w-3/4
+                md:mx-auto
+                lg:text-base
+                lg:mx-0
+                lg:w-3/4
+                
+                ">Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry.</p>
+                <button class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-5 py-3 rounded-lg mt-6 text-white">
+                    <i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>
+                    Buy Now
+                </button>
+            </div>
+            <div ><img class="w-3/4 mx-auto lg:w-auto lg:mx-0"  src="images/model.png" alt=""></div>
+
+        </section>
+    </header>
 </body>
+
 </html>
