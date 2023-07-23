@@ -3,5 +3,5 @@ I have applied the tailwind css fully on this mini project without creating any 
 The project is live here
 >https://maruf-islam-joy.github.io/web-learning-project6/
 
-#Target to be junior web-developer
+#Target-to-be-a-junior-web-developer
 #FirstProjectOfTailwindCSS
